@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Orbitron', sans-serif;
+}
+
+header {
+	font-size: 30px;
+	color: green;
+	text-align: center;
+}
+h1 {
+	font-size: 20px;
+	color: lightgrey;
+	text-align: center;
+}
+
+button {
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 200px;
+	margin: 20px auto;
+	display: block; 
+}
+
+#TTT {
+	font-size: 30px;
+	border: solid black 2px;
+	border-collapse: collapse;
+	margin: auto;
+	text-align: center;
+}
+
+#TTT td {
+	border: solid black 2px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cell:hover {
+	background-color: lightgrey;
+}
